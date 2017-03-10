@@ -13,6 +13,8 @@
 #include <float.h>
 #include <stdlib.h>
 
+#include <algorithm>
+
 using namespace HLSLcc;
 
 #ifdef _MSC_VER

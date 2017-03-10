@@ -1,3 +1,4 @@
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include "internal_includes/HLSLccToolkit.h"
 #include "internal_includes/HLSLCrossCompilerContext.h"
@@ -10,6 +11,8 @@
 
 #include <float.h>
 #include <stdlib.h>
+
+#include <algorithm>
 
 using namespace HLSLcc;
 

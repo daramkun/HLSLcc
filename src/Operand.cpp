@@ -6,6 +6,8 @@
 #include "internal_includes/HLSLCrossCompilerContext.h"
 #include "internal_includes/Instruction.h"
 
+#include <algorithm>
+
 uint32_t Operand::GetAccessMask() const
 {
 	int i;
